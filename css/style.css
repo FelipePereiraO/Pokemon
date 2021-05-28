@@ -1,0 +1,82 @@
+.back{
+    background-color: rgb(212, 212, 212);
+}
+header{
+    width: 100%;
+}
+.logo{
+    height: 150px;
+    width: 240px;
+    display: flex;
+    margin: 5px auto;
+
+}
+.input{
+    height: 140px;
+    width: 300px;
+    padding: 15px ;
+    background-image: linear-gradient( to right, rgba(255,204,0,255), rgba(213,161,0,255));
+    text-align: center;
+    margin: 0px auto;
+    border-radius: 6px;
+    border: 5px solid rgba(0,76,140,255);
+    box-shadow: 1px 1px 10px black;
+}
+#btn{
+    margin: 12px;
+}
+.carta{
+    height: 380px;
+    width: 250px;
+    background-image: linear-gradient( to right, rgba(227,219,107,255), rgba(174,209,131,255), rgba(227,219,107,255));
+    border-radius: 2px;
+    border: 6px solid rgba(224,209,124,255);
+    margin: 25px auto;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.534);
+
+}
+.pokemon{
+    height: 170px;
+    width: 120px;
+    margin: 15px 30px;
+
+}
+.img-card{
+    background-color: rgba(255, 255, 255, 0.89);
+    padding: 5px 25px;
+    margin: 5px 0px;
+    border-radius: 3px;
+}
+.hp{
+    background-color: rgba(73, 138, 8, 0.63);
+    border-radius: 2px;
+    border-bottom: 4px solid rgba(73, 138, 8, 0.849);
+    margin: 2px 0px ;
+}
+.attack{
+    background-color: rgba(223, 41, 50, 0.842);
+    border-radius: 2px; 
+    border-bottom: 4px solid rgb(192, 25, 33);
+    margin: 2px 0px ;
+}
+.defense{
+    background-color: rgba(12, 123, 250, 0.692);
+    border-radius: 2px;     
+    border-bottom: 4px solid rgb(12, 123, 250);
+    margin: 2px 0px ;
+}
+.error{
+    margin-top: 20px;
+    color: red;
+    text-align: center;
+}
+.add{
+    display: block;
+}
+.remove{
+    display: none;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+}
